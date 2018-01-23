@@ -28,29 +28,39 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Skills</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
+          <h3>Front end</h3>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Standard foundation of HTML, CSS, and JavaScript. My framework of
+            choice is <strong>React</strong> used typically alongside{' '}
+            <strong>Redux</strong> for state management.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Responsiveness is key for all modern web applications, which is why
+            I always take a mobile-first approach in my designs. I've enjoyed
+            using primarily <strong>Material-UI</strong> and{' '}
+            <strong>Bootstrap</strong> to help me style and create a
+            consistently smooth user experience on any device.
+          </p>
+          <h3>Back end</h3>
+          <p>
+            Continuing the theme of JavaScript, <strong>Node</strong> and{' '}
+            <strong>Express</strong> have become my go-to for back end logic. I
+            am comfortable connecting projects to both <strong>MongoDB</strong>{' '}
+            and <strong>SQL</strong> databases.
+          </p>
+          <h3>Extras</h3>
+          <p>
+            I've used a variety of <strong>REST APIs</strong> to help make my
+            apps more interesting and engaging. Some examples include SendGrid,
+            Stripe, BreweryDB, and Yelp Fusion.
+          </p>
+          <p>
+            In order to make appealing <strong>data visualizations</strong> I
+            have worked with D3.js and Google Charts.
           </p>
           {close}
         </article>
