@@ -73,23 +73,51 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <h3>BeerMe</h3>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            <strong>
+              Live site{' '}
+              <a href="https://vast-retreat-88379.herokuapp.com/">here</a>
+            </strong>
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            BeerMe is designed to foster a community of beer enthusiasts to
+            access information and create reviews for their most treasured
+            beers.
+          </p>
+          <p>
+            Anyone who visits can take advantage of the ability to search for
+            beers and view user reviews and ratings. Those who create an account
+            through their existing Google accounts can add reviews of their own,
+            mark reviews as helpful, and favorite particular beers to keep track
+            of them.
+          </p>
+          <p>
+            This project was made possible by the awesome API that{' '}
+            <a href="http://www.brewerydb.com/">BreweryDB</a> provides for free.
+          </p>
+          <hr />
+          <h3>Wanderful</h3>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+          <p>
+            Live site <a href="http://www.wanderful-travel.com">here</a>
+          </p>
+          <p>
+            Wanderful is what I can best describe as a 'roulette' for travel
+            destinations. It helps users discover places they may have otherwise
+            never found.
+          </p>
+          <p>
+            Visitors can click a button to bring up detailed information on a
+            random destination throughout the world. It includes reviews and
+            ratings from Yelp on a variety of categories and the ability to
+            discover basic flight information. Those who register an account can
+            keep track of their favorite places.
           </p>
           {close}
         </article>
@@ -105,15 +133,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <p>MERN stack web developer based in Boca Raton, Florida.</p>
           {close}
         </article>
 
