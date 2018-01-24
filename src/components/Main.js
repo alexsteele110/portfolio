@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import computer from '../images/computer.png'
+import wanderful from '../images/wanderful.png'
+import beerme from '../images/beerme.png'
 
 class Main extends React.Component {
   render() {
@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Skills</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={computer} alt="" />
           </span>
           <h3>Front end</h3>
           <p>
@@ -75,7 +75,7 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <h3>BeerMe</h3>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={beerme} alt="" />
           </span>
           <p>
             <strong>
@@ -102,7 +102,7 @@ class Main extends React.Component {
           <hr />
           <h3>Wanderful</h3>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={wanderful} alt="" />
           </span>
           <p>
             Live site <a href="http://www.wanderful-travel.com">here</a>
@@ -131,9 +131,33 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={computer} alt="" />
           </span>
-          <p>MERN stack web developer based in Boca Raton, Florida.</p>
+          <p>
+            I am a full stack web developer based in Boca Raton, with the
+            majority of my experience stemming from web application projects
+            utilizing the MERN stack.
+          </p>
+          <p>
+            Biology defines my previous background, but I decided to switch
+            paths to that of a self taught programmer and have loved every
+            moment since. Determination to improve the quality of code I produce
+            and the desire to expand my foundational knowledge is what allows me
+            to keep pushing and grow as a developer.
+          </p>
+          <p>
+            My focus is on making interesting apps that are simple to use,
+            elegantly designed, and responsive. I have a passion for learning
+            and exploring new technologies and am unafraid of complexity and
+            challenges.
+          </p>
+          <p>
+            I am always seeking new opportunities, so feel free to reach out to
+            me if you are need of someone with my skill set. I would also love
+            to connect with any other self taught developers like myself out
+            there, so please don’t hesitate to contact me if you have questions
+            or want to speak with me!
+          </p>
           {close}
         </article>
 
