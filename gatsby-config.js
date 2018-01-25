@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: 'Alex Steele Portfolio',
     author: 'Alex Steele',
-    description: 'A Gatsby.js Starter based on Dimension by HTML5 UP',
+    description: 'My personal portfolio for web development',
   },
-  pathPrefix: '/',
+  pathPrefix: '/portfolio',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
