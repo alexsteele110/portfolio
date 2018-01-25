@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import computer from '../images/computer.png'
 import wanderful from '../images/wanderful.png'
 import beerme from '../images/beerme.png'
+import MERN from '../images/MERN.png'
 
 class Main extends React.Component {
   render() {
@@ -30,7 +31,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Skills</h2>
           <span className="image main">
-            <img src={computer} alt="" />
+            <img src={MERN} alt="" />
           </span>
           <h3>Front end</h3>
           <p>
@@ -79,8 +80,10 @@ class Main extends React.Component {
           </span>
           <p>
             <strong>
-              Live site{' '}
+              Live site:{' '}
               <a href="https://vast-retreat-88379.herokuapp.com/">here</a>
+              <br />
+              GitHub: <a href="https://github.com/alexsteele110/BeerMe">here</a>
             </strong>
           </p>
           <p>
@@ -105,7 +108,14 @@ class Main extends React.Component {
             <img src={wanderful} alt="" />
           </span>
           <p>
-            Live site <a href="http://www.wanderful-travel.com">here</a>
+            <strong>
+              Live site <a href="http://www.wanderful-travel.com">here</a>
+              <br />
+              Github:{' '}
+              <a href="https://github.com/alexsteele110/Voyage2-Bears-11">
+                Here
+              </a>
+            </strong>
           </p>
           <p>
             Wanderful is what I can best describe as a 'roulette' for travel
@@ -113,8 +123,8 @@ class Main extends React.Component {
             never found.
           </p>
           <p>
-            Visitors can click a button to bring up detailed information on a
-            random destination throughout the world. It includes reviews and
+            Visitors can simply click a button to bring them to the page of a
+            random location with detailed information. It includes reviews and
             ratings from Yelp on a variety of categories and the ability to
             discover basic flight information. Those who register an account can
             keep track of their favorite places.
