@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886,0x99703cc56f65],{213:function(e,t){e.exports={data:{site:{siteMetadata:{title:"Alex Steele Portfolio",description:"My personal portfolio for web development"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----3f189ccd7dfa745c2033.js.map
