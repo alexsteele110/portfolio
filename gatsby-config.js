@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Alex Steele Portfolio',
-    author: 'Alex Steele',
+    author: 'Alexander Steele',
     description: 'My personal portfolio for web development',
   },
   pathPrefix: '/portfolio',

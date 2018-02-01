@@ -20,18 +20,18 @@ const Header = props => (
           </li>
           <li>
             <a
-              href="mailto:alexsteele110@gmail.com"
-              className="icon fa-envelope-o"
-            >
-              <span className="label">Email</span>
-            </a>
-          </li>
-          <li>
-            <a
               href="https://github.com/alexsteele110"
               className="icon fa-github"
             >
               <span className="label">GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:alexsteele110@gmail.com"
+              className="icon fa-envelope-o"
+            >
+              <span className="label">Email</span>
             </a>
           </li>
         </ul>
